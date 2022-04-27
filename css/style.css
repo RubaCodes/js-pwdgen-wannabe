@@ -1,3 +1,8 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 body {
     background: linear-gradient(to top left, #28b487, #7dd56f);
     color: white;
@@ -24,5 +29,5 @@ h2 {
 }
 #password{
     font-size: 40px;
-    text-decoration: dotted;
+    text-decoration: dashed;
 }
