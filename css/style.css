@@ -5,20 +5,23 @@
 }
 
 body {
+    padding: 50px;
     background: linear-gradient(to top left, #28b487, #7dd56f);
     color: white;
 }
 
 .container {
     width: 80%;
-    height: 100vh;
+    height: calc(100vh - 100px);
     flex-direction: column;
     gap: 50px;
-    ;
     margin: auto;
     display: flex;
     justify-content: center;
     align-items: center;
+    border: 1px solid transparent;
+    border-radius: 40px;
+    background-color: rgba(0, 0, 0, 0.2)
 }
 
 h1 {
@@ -35,6 +38,7 @@ div[id*='word'] {
     text-decoration: dashed;
     border: 1px solid white;
     border-radius: 20px;
+    background-color: rgba(169, 169, 169, 0.164);
     filter: blur(6px);
     transition: filter 0.2s ease-in;
 }
