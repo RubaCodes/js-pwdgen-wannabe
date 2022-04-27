@@ -21,7 +21,8 @@ body {
     align-items: center;
     border: 1px solid transparent;
     border-radius: 40px;
-    background-color: rgba(0, 0, 0, 0.2)
+    background-color: rgba(0, 0, 0, 0.2);
+    box-shadow: 5px 5px 6px rgba(0, 0, 0, 0.432);
 }
 
 h1 {
@@ -36,7 +37,8 @@ div[id*='word'] {
     font-size: 40px;
     padding: 20px;
     text-decoration: dashed;
-    border: 1px solid white;
+    border: 1px solid transparent;
+    box-shadow: 5px 5px 6px rgba(0, 0, 0, 0.432);
     border-radius: 20px;
     background-color: rgba(169, 169, 169, 0.164);
     filter: blur(6px);
