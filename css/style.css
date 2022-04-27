@@ -1,8 +1,9 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+
 body {
     background: linear-gradient(to top left, #28b487, #7dd56f);
     color: white;
@@ -27,15 +28,18 @@ h1 {
 h2 {
     font-size: 50px;
 }
-#password{
+
+#password {
     font-size: 40px;
     padding: 20px;
     text-decoration: dashed;
     border: 1px solid white;
     border-radius: 20px;
-    filter: blur(6px); 
-    transition:  filter 0.2s ease-in;
+    filter: blur(6px);
+    transition: filter 0.2s ease-in;
+    position: relative;
 }
-#password:hover{
+
+#password:hover {
     filter: blur(0px);
 }
