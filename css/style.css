@@ -13,7 +13,7 @@ body {
     width: 80%;
     height: 100vh;
     flex-direction: column;
-    gap: 40px;
+    gap: 50px;
     ;
     margin: auto;
     display: flex;
@@ -29,7 +29,7 @@ h2 {
     font-size: 50px;
 }
 
-#password {
+div[id*='word'] {
     font-size: 40px;
     padding: 20px;
     text-decoration: dashed;
@@ -37,9 +37,12 @@ h2 {
     border-radius: 20px;
     filter: blur(6px);
     transition: filter 0.2s ease-in;
-    position: relative;
 }
 
-#password:hover {
+div[id*='word']:hover {
     filter: blur(0px);
+}
+
+strong{
+    color: rgba(0, 0, 255, 0.69);
 }
