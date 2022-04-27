@@ -29,5 +29,13 @@ h2 {
 }
 #password{
     font-size: 40px;
+    padding: 20px;
     text-decoration: dashed;
+    border: 1px solid white;
+    border-radius: 20px;
+    filter: blur(6px); 
+    transition:  filter 0.2s ease-in;
+}
+#password:hover{
+    filter: blur(0px);
 }
