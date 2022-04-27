@@ -23,6 +23,8 @@ body {
     border-radius: 40px;
     background-color: rgba(0, 0, 0, 0.2);
     box-shadow: 5px 5px 6px rgba(0, 0, 0, 0.432);
+    overflow-y: auto;
+    text-align: center;
 }
 
 h1 {
